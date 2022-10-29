@@ -1,0 +1,21 @@
+.nav--container {
+    background-color: brown;
+    height: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav--title {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav--icon {
+    width: 1rem;
+    color: white;
+    margin-right: 1rem;
+}
+

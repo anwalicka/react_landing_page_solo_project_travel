@@ -1,0 +1,48 @@
+.travel-card--container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 2rem 8rem;
+    width: 45%;
+    align-items: center;
+}
+
+.travel-card--text-container {
+    padding: 1rem;
+}
+.travel-card--img {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.travel-card--country-name {
+    font-weight: 700;
+    font-size: 12px;
+}
+.travel-card-ancore {
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+    margin-left: 1rem;
+}
+.travel-card-text-container--title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.travel-card-text-container--date {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.travel-card-text-container--description {
+    margin: 0;
+    font-size: 15px;
+    text-align: justify;
+    font-style: italic;
+}
